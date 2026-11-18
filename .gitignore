@@ -1,0 +1,25 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
+
+# Local datasets (keep Wine Quality CSVs, ignore large image datasets)
+data/*
+!data/.gitkeep
+!data/wine-quality/
+!data/wine-quality/*
+
+# Generated experiment artifacts
+outputs/*
+!outputs/.gitkeep
+
+# Large model checkpoints
+*.pth
+*.pt
+*.ckpt
