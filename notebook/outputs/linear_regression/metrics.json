@@ -1,0 +1,17 @@
+{
+  "dataset": "/Users/muhammadwildan/Programming/kuliah/mechine-learning-project/data/wine-quality/winequality-white.csv",
+  "target": "quality",
+  "random_state": 42,
+  "test_size": 0.2,
+  "train_samples": 3918,
+  "test_samples": 980,
+  "feature_count": 11,
+  "mae": 0.5862665383250466,
+  "mse": 0.5690247717229253,
+  "rmse": 0.7543373063311434,
+  "r2": 0.2652750042179156,
+  "mean_actual_quality": 5.904081632653061,
+  "mean_predicted_quality": 5.893188435116162,
+  "mean_residual": 0.010893197536898888,
+  "created_at_utc": "2026-11-18T11:41:34.552154+00:00"
+}
